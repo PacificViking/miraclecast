@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 eval SCRIPT_DEBUG="\$$(basename $0 .sh | tr - _)_DEBUG"
 SCRIPT_DEBUG=${SCRIPT_DEBUG:--1}
